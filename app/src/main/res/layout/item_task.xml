@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="7dp">
+
+    <TextView
+        android:id="@+id/numberTextView"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:fontFamily="@font/golostext_regular"
+        android:gravity="center"
+        android:textColor="?attr/textColorPrimary"
+        android:textSize="20sp"
+        tools:background="@color/text_done_gray"
+        tools:text="1" />
+
+    <TextView
+        android:id="@+id/textTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/golostext_regular"
+        android:gravity="center_vertical"
+        android:padding="7dp"
+        android:textColor="?attr/textColorPrimary"
+        android:textSize="20sp"
+        tools:background="@color/text_done_gray"
+        tools:text="Задача 1" />
+
+    <ImageButton
+        android:id="@+id/imageButtonDeleteView"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Delete Task"
+        android:src="?attr/buttonImage"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+
+</LinearLayout>

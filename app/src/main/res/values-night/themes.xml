@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AddTasks" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="textColorPrimary">@android:color/primary_text_dark</item>
+        <item name="buttonImage">@drawable/ic_garbage_button_dark_theme</item>
+    </style>
+</resources>
