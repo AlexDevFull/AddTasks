@@ -38,9 +38,13 @@ https://github.com/AlexDevFull/AddTasks.git
 ## Структура проекта
 
 MainActivity.kt — Главная активность, отображающая список задач.
+
 TaskAdapter.kt — Адаптер для отображения задач в RecyclerView.
+
 DBHelper.kt — Класс для работы с базой данных SQLite.
+
 SwipeToDeleteCallback.kt — класс обработки свайпов влево и вправо.
+
 ThemeExtensions.kt - проверяет, используется ли темная тема на устройстве, анализируя основной цвет текста.
 
 ## Лицензия
